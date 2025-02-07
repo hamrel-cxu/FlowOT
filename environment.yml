@@ -1,0 +1,21 @@
+name: FlowOT
+channels:
+  - conda-forge
+  - pytorch
+  - defaults
+dependencies:
+  - python
+  - pip
+  - h5py
+  - scipy
+  - pandas
+  - matplotlib
+  - numpy
+  - tqdm
+  - gputil
+  - psutil
+  - pytorch
+  - torchvision
+  - pip:
+    - torchdiffeq
+    - PyYAML
